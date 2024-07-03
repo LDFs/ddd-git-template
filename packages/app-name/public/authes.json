@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/",
+    "menuCode": "home-menucode-1234",
+    "permission": { "add": true, "delete": true, "edit": true, "read": true },
+    "apis":["/queryResource", "/deleteResource"]
+  },
+  {
+    "path": "/content",
+    "menuCode": "home-menucode-content",
+    "permission": { "add": true, "delete": true, "edit": false, "read": false },
+    "apis": ["/updateResource", "/getDetail", "/getCategory", "/addResource"]
+  }
+]
